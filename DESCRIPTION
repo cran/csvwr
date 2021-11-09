@@ -1,7 +1,7 @@
 Package: csvwr
 Type: Package
 Title: Read and Write CSV on the Web (CSVW) Tables and Metadata
-Version: 0.1.5
+Version: 0.1.6
 Author: Robin Gower
 Maintainer: Robin Gower <csvwr@infonomics.ltd.uk>
 Description: Provide functions for reading and writing CSVW - i.e. CSV tables and JSON metadata.
@@ -16,7 +16,8 @@ Imports: magrittr, jsonlite, purrr, readr, stringr, rlang
 Config/testthat/edition: 3
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr, rmarkdown
+Language: en-GB
 NeedsCompilation: no
-Packaged: 2021-06-11 20:03:39 UTC; robin
+Packaged: 2021-11-09 10:42:43 UTC; robin
 Repository: CRAN
-Date/Publication: 2021-06-14 07:30:15 UTC
+Date/Publication: 2021-11-09 10:50:02 UTC
