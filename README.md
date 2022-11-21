@@ -2,6 +2,7 @@
 
 [![build](https://github.com/Robsteranium/csvwr/actions/workflows/r.yml/badge.svg)](https://github.com/Robsteranium/csvwr/actions/workflows/r.yml)
 [![pkgdown](https://github.com/Robsteranium/csvwr/actions/workflows/pkgdown.yml/badge.svg)](https://github.com/Robsteranium/csvwr/actions/workflows/pkgdown.yml)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/csvwr)](https://cran.r-project.org/package=csvwr)
 
 Read and write csv tables annotated with metadata according to the "CSV on the Web" standard (CSVW).
 
@@ -61,7 +62,12 @@ For a complete introduction to the library please see the `vignette("read-write-
 
 ## Installation
 
-You'll need to use devtools to install this package from github:
+You can install the latest release from CRAN:
+```r
+install.packages("csvwr")
+```
+
+Or for the development version you can use devtools to install `csvwr` from GitHub:
 
 ```r
 install.packages("devtools")
@@ -112,6 +118,13 @@ run_entry_in_dev(id="manifest-json#test023") # identifier for the test
 ```
 
 There are also some more [in-depth unit tests](https://github.com/Robsteranium/csvwr/blob/master/tests/testthat/test-parsing.R) written for this library.
+
+We use GitHub actions to test the package against multiple architectures and the current, previous and development versions of R. If you need to test against the R-devel locally then you can use the `r-devel.Dockerfile`:
+
+```shell
+docker build -f r-devel.Dockerfile . --tag csvw-devel
+docker run --rm "csvw-devel"
+```
 
 ### Workflow
 

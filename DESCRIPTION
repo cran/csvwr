@@ -1,7 +1,7 @@
 Package: csvwr
 Type: Package
 Title: Read and Write CSV on the Web (CSVW) Tables and Metadata
-Version: 0.1.6
+Version: 0.1.7
 Author: Robin Gower
 Maintainer: Robin Gower <csvwr@infonomics.ltd.uk>
 Description: Provide functions for reading and writing CSVW - i.e. CSV tables and JSON metadata.
@@ -12,12 +12,12 @@ URL: https://robsteranium.github.io/csvwr/,
 BugReports: https://github.com/Robsteranium/csvwr/issues
 Encoding: UTF-8
 Suggests: testthat (>= 3.0.0), knitr, markdown, rmarkdown
-Imports: magrittr, jsonlite, purrr, readr, stringr, rlang
+Imports: cli, magrittr, jsonlite, purrr, readr, stringr, rlang
 Config/testthat/edition: 3
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 VignetteBuilder: knitr, rmarkdown
 Language: en-GB
 NeedsCompilation: no
-Packaged: 2021-11-09 10:42:43 UTC; robin
+Packaged: 2022-11-20 13:47:03 UTC; robin
 Repository: CRAN
-Date/Publication: 2021-11-09 10:50:02 UTC
+Date/Publication: 2022-11-21 11:20:02 UTC

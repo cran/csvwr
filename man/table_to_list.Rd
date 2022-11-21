@@ -4,14 +4,12 @@
 \alias{table_to_list}
 \title{Convert a table to a list}
 \usage{
-table_to_list(table, group_schema, dialect)
+table_to_list(table, group)
 }
 \arguments{
 \item{table}{the csvw table}
 
-\item{group_schema}{a default schema}
-
-\item{dialect}{the dialect for reading the table from the csv file}
+\item{group}{list of metadata for the group used for a fallback schema and dialect}
 }
 \value{
 a list representation of the table's contents
@@ -19,3 +17,4 @@ a list representation of the table's contents
 \description{
 Follows the pattern for csv2json
 }
+\keyword{internal}
